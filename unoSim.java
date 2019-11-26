@@ -1,10 +1,8 @@
-//Askari Abbas 652991
-//ICS3U0
 import java.util.ArrayList;
 import java.util.Scanner;
 public class unoSim {
     private static String[] colors = new String[] {"Blue","Green","Yellow","Red"}; //initializes the card colors
-    private static String getCardString(int cardNum) { //This method converts card values to proper strings for output (method was approved by Mr. Cho)
+    private static String getCardString(int cardNum) { //This method converts card values to proper strings for output
         if (cardNum == 44) {
             return "+4 card";
         }
